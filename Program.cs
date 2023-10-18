@@ -2,7 +2,6 @@ using MultiDI;
 using MultiDI.Enums;
 using MultiDI.Resolver;
 using MultiDI.Services;
-using MultiDI.Services.Contracts;
 
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices((host, services) =>
